@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C8BF1671999BD0900BA6EA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C8BF1661999BD0900BA6EA1 /* Foundation.framework */; };
+		6C8BF1691999BD0900BA6EA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C8BF1681999BD0900BA6EA1 /* CoreGraphics.framework */; };
+		6C8BF16B1999BD0900BA6EA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C8BF16A1999BD0900BA6EA1 /* UIKit.framework */; };
+		6C8BF1711999BD0900BA6EA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C8BF16F1999BD0900BA6EA1 /* InfoPlist.strings */; };
+		6C8BF1731999BD0900BA6EA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8BF1721999BD0900BA6EA1 /* main.m */; };
+		6C8BF1771999BD0900BA6EA1 /* KLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8BF1761999BD0900BA6EA1 /* KLAppDelegate.m */; };
+		6C8BF1791999BD0900BA6EA1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C8BF1781999BD0900BA6EA1 /* Images.xcassets */; };
+		6C8BF1801999BD0900BA6EA1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C8BF17F1999BD0900BA6EA1 /* XCTest.framework */; };
+		6C8BF1811999BD0900BA6EA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C8BF1661999BD0900BA6EA1 /* Foundation.framework */; };
+		6C8BF1821999BD0900BA6EA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C8BF16A1999BD0900BA6EA1 /* UIKit.framework */; };
+		6C8BF18A1999BD0900BA6EA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C8BF1881999BD0900BA6EA1 /* InfoPlist.strings */; };
+		6C8BF18C1999BD0900BA6EA1 /* KLReachabilityManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8BF18B1999BD0900BA6EA1 /* KLReachabilityManagerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C8BF1831999BD0900BA6EA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C8BF15B1999BD0900BA6EA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C8BF1621999BD0900BA6EA1;
+			remoteInfo = KLReachabilityManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C8BF1631999BD0900BA6EA1 /* KLReachabilityManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLReachabilityManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C8BF1661999BD0900BA6EA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6C8BF1681999BD0900BA6EA1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6C8BF16A1999BD0900BA6EA1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6C8BF16E1999BD0900BA6EA1 /* KLReachabilityManager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KLReachabilityManager-Info.plist"; sourceTree = "<group>"; };
+		6C8BF1701999BD0900BA6EA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6C8BF1721999BD0900BA6EA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C8BF1741999BD0900BA6EA1 /* KLReachabilityManager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KLReachabilityManager-Prefix.pch"; sourceTree = "<group>"; };
+		6C8BF1751999BD0900BA6EA1 /* KLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLAppDelegate.h; sourceTree = "<group>"; };
+		6C8BF1761999BD0900BA6EA1 /* KLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLAppDelegate.m; sourceTree = "<group>"; };
+		6C8BF1781999BD0900BA6EA1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6C8BF17E1999BD0900BA6EA1 /* KLReachabilityManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLReachabilityManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C8BF17F1999BD0900BA6EA1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6C8BF1871999BD0900BA6EA1 /* KLReachabilityManagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KLReachabilityManagerTests-Info.plist"; sourceTree = "<group>"; };
+		6C8BF1891999BD0900BA6EA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6C8BF18B1999BD0900BA6EA1 /* KLReachabilityManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLReachabilityManagerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C8BF1601999BD0900BA6EA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C8BF1691999BD0900BA6EA1 /* CoreGraphics.framework in Frameworks */,
+				6C8BF16B1999BD0900BA6EA1 /* UIKit.framework in Frameworks */,
+				6C8BF1671999BD0900BA6EA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C8BF17B1999BD0900BA6EA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C8BF1801999BD0900BA6EA1 /* XCTest.framework in Frameworks */,
+				6C8BF1821999BD0900BA6EA1 /* UIKit.framework in Frameworks */,
+				6C8BF1811999BD0900BA6EA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C8BF15A1999BD0900BA6EA1 = {
+			isa = PBXGroup;
+			children = (
+				6C8BF16C1999BD0900BA6EA1 /* KLReachabilityManager */,
+				6C8BF1851999BD0900BA6EA1 /* KLReachabilityManagerTests */,
+				6C8BF1651999BD0900BA6EA1 /* Frameworks */,
+				6C8BF1641999BD0900BA6EA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C8BF1641999BD0900BA6EA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C8BF1631999BD0900BA6EA1 /* KLReachabilityManager.app */,
+				6C8BF17E1999BD0900BA6EA1 /* KLReachabilityManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C8BF1651999BD0900BA6EA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C8BF1661999BD0900BA6EA1 /* Foundation.framework */,
+				6C8BF1681999BD0900BA6EA1 /* CoreGraphics.framework */,
+				6C8BF16A1999BD0900BA6EA1 /* UIKit.framework */,
+				6C8BF17F1999BD0900BA6EA1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C8BF16C1999BD0900BA6EA1 /* KLReachabilityManager */ = {
+			isa = PBXGroup;
+			children = (
+				6C8BF1751999BD0900BA6EA1 /* KLAppDelegate.h */,
+				6C8BF1761999BD0900BA6EA1 /* KLAppDelegate.m */,
+				6C8BF1781999BD0900BA6EA1 /* Images.xcassets */,
+				6C8BF16D1999BD0900BA6EA1 /* Supporting Files */,
+			);
+			path = KLReachabilityManager;
+			sourceTree = "<group>";
+		};
+		6C8BF16D1999BD0900BA6EA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C8BF16E1999BD0900BA6EA1 /* KLReachabilityManager-Info.plist */,
+				6C8BF16F1999BD0900BA6EA1 /* InfoPlist.strings */,
+				6C8BF1721999BD0900BA6EA1 /* main.m */,
+				6C8BF1741999BD0900BA6EA1 /* KLReachabilityManager-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C8BF1851999BD0900BA6EA1 /* KLReachabilityManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C8BF18B1999BD0900BA6EA1 /* KLReachabilityManagerTests.m */,
+				6C8BF1861999BD0900BA6EA1 /* Supporting Files */,
+			);
+			path = KLReachabilityManagerTests;
+			sourceTree = "<group>";
+		};
+		6C8BF1861999BD0900BA6EA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C8BF1871999BD0900BA6EA1 /* KLReachabilityManagerTests-Info.plist */,
+				6C8BF1881999BD0900BA6EA1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C8BF1621999BD0900BA6EA1 /* KLReachabilityManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C8BF18F1999BD0900BA6EA1 /* Build configuration list for PBXNativeTarget "KLReachabilityManager" */;
+			buildPhases = (
+				6C8BF15F1999BD0900BA6EA1 /* Sources */,
+				6C8BF1601999BD0900BA6EA1 /* Frameworks */,
+				6C8BF1611999BD0900BA6EA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KLReachabilityManager;
+			productName = KLReachabilityManager;
+			productReference = 6C8BF1631999BD0900BA6EA1 /* KLReachabilityManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C8BF17D1999BD0900BA6EA1 /* KLReachabilityManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C8BF1921999BD0900BA6EA1 /* Build configuration list for PBXNativeTarget "KLReachabilityManagerTests" */;
+			buildPhases = (
+				6C8BF17A1999BD0900BA6EA1 /* Sources */,
+				6C8BF17B1999BD0900BA6EA1 /* Frameworks */,
+				6C8BF17C1999BD0900BA6EA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C8BF1841999BD0900BA6EA1 /* PBXTargetDependency */,
+			);
+			name = KLReachabilityManagerTests;
+			productName = KLReachabilityManagerTests;
+			productReference = 6C8BF17E1999BD0900BA6EA1 /* KLReachabilityManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C8BF15B1999BD0900BA6EA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Khan.Lau;
+				TargetAttributes = {
+					6C8BF17D1999BD0900BA6EA1 = {
+						TestTargetID = 6C8BF1621999BD0900BA6EA1;
+					};
+				};
+			};
+			buildConfigurationList = 6C8BF15E1999BD0900BA6EA1 /* Build configuration list for PBXProject "KLReachabilityManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6C8BF15A1999BD0900BA6EA1;
+			productRefGroup = 6C8BF1641999BD0900BA6EA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C8BF1621999BD0900BA6EA1 /* KLReachabilityManager */,
+				6C8BF17D1999BD0900BA6EA1 /* KLReachabilityManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C8BF1611999BD0900BA6EA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C8BF1711999BD0900BA6EA1 /* InfoPlist.strings in Resources */,
+				6C8BF1791999BD0900BA6EA1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C8BF17C1999BD0900BA6EA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C8BF18A1999BD0900BA6EA1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C8BF15F1999BD0900BA6EA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C8BF1731999BD0900BA6EA1 /* main.m in Sources */,
+				6C8BF1771999BD0900BA6EA1 /* KLAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C8BF17A1999BD0900BA6EA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C8BF18C1999BD0900BA6EA1 /* KLReachabilityManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C8BF1841999BD0900BA6EA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C8BF1621999BD0900BA6EA1 /* KLReachabilityManager */;
+			targetProxy = 6C8BF1831999BD0900BA6EA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C8BF16F1999BD0900BA6EA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C8BF1701999BD0900BA6EA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6C8BF1881999BD0900BA6EA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C8BF1891999BD0900BA6EA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C8BF18D1999BD0900BA6EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C8BF18E1999BD0900BA6EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C8BF1901999BD0900BA6EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KLReachabilityManager/KLReachabilityManager-Prefix.pch";
+				INFOPLIST_FILE = "KLReachabilityManager/KLReachabilityManager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6C8BF1911999BD0900BA6EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KLReachabilityManager/KLReachabilityManager-Prefix.pch";
+				INFOPLIST_FILE = "KLReachabilityManager/KLReachabilityManager-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6C8BF1931999BD0900BA6EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KLReachabilityManager.app/KLReachabilityManager";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KLReachabilityManager/KLReachabilityManager-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KLReachabilityManagerTests/KLReachabilityManagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6C8BF1941999BD0900BA6EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KLReachabilityManager.app/KLReachabilityManager";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KLReachabilityManager/KLReachabilityManager-Prefix.pch";
+				INFOPLIST_FILE = "KLReachabilityManagerTests/KLReachabilityManagerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C8BF15E1999BD0900BA6EA1 /* Build configuration list for PBXProject "KLReachabilityManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C8BF18D1999BD0900BA6EA1 /* Debug */,
+				6C8BF18E1999BD0900BA6EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C8BF18F1999BD0900BA6EA1 /* Build configuration list for PBXNativeTarget "KLReachabilityManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C8BF1901999BD0900BA6EA1 /* Debug */,
+				6C8BF1911999BD0900BA6EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6C8BF1921999BD0900BA6EA1 /* Build configuration list for PBXNativeTarget "KLReachabilityManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C8BF1931999BD0900BA6EA1 /* Debug */,
+				6C8BF1941999BD0900BA6EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C8BF15B1999BD0900BA6EA1 /* Project object */;
+}
