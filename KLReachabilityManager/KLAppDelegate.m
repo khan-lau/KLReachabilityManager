@@ -7,6 +7,7 @@
 //
 
 #import "KLAppDelegate.h"
+#import "KLReachabilityManager.h"
 
 @implementation KLAppDelegate
 
@@ -15,8 +16,23 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
     [self.window makeKeyAndVisible];
+    [self demo];
     return YES;
+}
+
+
+- (void) demo {
+
+    NSLog(@" history update");
+    KLReachabilityStatus stat = [KLReachabilityManager netWorkReachable];
+    if (KLReachabilityStatusReachableViaWWAN == stat) {
+        NSLog(@"wwan  sync");
+        
+    } else if(KLReachabilityStatusReachableViaWiFi == stat)  {
+        NSLog(@"wifi  sync");
+    }
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

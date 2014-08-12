@@ -19,6 +19,7 @@
 		6C8BF1821999BD0900BA6EA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C8BF16A1999BD0900BA6EA1 /* UIKit.framework */; };
 		6C8BF18A1999BD0900BA6EA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C8BF1881999BD0900BA6EA1 /* InfoPlist.strings */; };
 		6C8BF18C1999BD0900BA6EA1 /* KLReachabilityManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8BF18B1999BD0900BA6EA1 /* KLReachabilityManagerTests.m */; };
+		6C8BF1981999BD6F00BA6EA1 /* KLReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8BF1971999BD6F00BA6EA1 /* KLReachabilityManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		6C8BF1871999BD0900BA6EA1 /* KLReachabilityManagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KLReachabilityManagerTests-Info.plist"; sourceTree = "<group>"; };
 		6C8BF1891999BD0900BA6EA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6C8BF18B1999BD0900BA6EA1 /* KLReachabilityManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLReachabilityManagerTests.m; sourceTree = "<group>"; };
+		6C8BF1961999BD6F00BA6EA1 /* KLReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLReachabilityManager.h; sourceTree = "<group>"; };
+		6C8BF1971999BD6F00BA6EA1 /* KLReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLReachabilityManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,7 @@
 		6C8BF16C1999BD0900BA6EA1 /* KLReachabilityManager */ = {
 			isa = PBXGroup;
 			children = (
+				6C8BF1951999BD6F00BA6EA1 /* KLReachabilityManager */,
 				6C8BF1751999BD0900BA6EA1 /* KLAppDelegate.h */,
 				6C8BF1761999BD0900BA6EA1 /* KLAppDelegate.m */,
 				6C8BF1781999BD0900BA6EA1 /* Images.xcassets */,
@@ -142,6 +146,15 @@
 				6C8BF1881999BD0900BA6EA1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C8BF1951999BD6F00BA6EA1 /* KLReachabilityManager */ = {
+			isa = PBXGroup;
+			children = (
+				6C8BF1961999BD6F00BA6EA1 /* KLReachabilityManager.h */,
+				6C8BF1971999BD6F00BA6EA1 /* KLReachabilityManager.m */,
+			);
+			path = KLReachabilityManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +255,7 @@
 			files = (
 				6C8BF1731999BD0900BA6EA1 /* main.m in Sources */,
 				6C8BF1771999BD0900BA6EA1 /* KLAppDelegate.m in Sources */,
+				6C8BF1981999BD6F00BA6EA1 /* KLReachabilityManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
