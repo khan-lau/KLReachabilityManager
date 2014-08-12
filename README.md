@@ -3,6 +3,8 @@ KLReachabilityManager
 
 Reachability 修复, 新增同步接口, 基于 afn 修改
 
+
+[code]
 //代码改良于 afn
 //使用方法很简单
 
@@ -29,3 +31,4 @@ Reachability 修复, 新增同步接口, 基于 afn 修改
         NSLog(@"wifi  sync");
     }
 }
+[/code]
